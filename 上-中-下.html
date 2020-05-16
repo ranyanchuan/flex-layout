@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>demo 1 - Sticky Footer</title>
+    <link rel="stylesheet" href="./preset.css">
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        article {
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+
+<!--
+经典的上-中-下布局。
+
+当页面内容高度小于可视区域高度时，footer 吸附在底部；
+当页面内容高度大于可视区域高度时，footer 被撑开排在 content 下方
+-->
+
+<header>HEADER</header>
+<article>CONTENT</article>
+<footer>FOOTER</footer>
+</body>
+</html>

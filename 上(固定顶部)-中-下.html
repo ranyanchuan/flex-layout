@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>demo 1 - Sticky Footer</title>
+    <link rel="stylesheet" href="./preset.css">
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding-top: 60px;
+        }
+        header {
+            height: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 0;
+        }
+        article {
+            flex: auto;
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
+
+<!--
+在上-中-下布局的基础上，加了左侧定宽 sidebar
+-->
+
+
+<header>HEADER</header>
+<article>CONTENT</article>
+<footer>FOOTER</footer>
+
+</body>
+</html>
